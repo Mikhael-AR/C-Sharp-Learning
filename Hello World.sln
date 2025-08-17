@@ -1,25 +1,12 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36301.6
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello World", "Wagahai No Sekai 2\Hello World.csproj", "{548DA2EA-8937-49CA-A398-278E4E503A1A}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{548DA2EA-8937-49CA-A398-278E4E503A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{548DA2EA-8937-49CA-A398-278E4E503A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{548DA2EA-8937-49CA-A398-278E4E503A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{548DA2EA-8937-49CA-A398-278E4E503A1A}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {05B98802-BE22-4A49-8520-6401D0AF4F15}
-	EndGlobalSection
-EndGlobal
+using System; // allows us to use classes from the System namespace.
+// Empty line (improves readability, no effect on the program).
+namespace HelloWorld // groups related code together.
+{ // defines the beginning and end of a block of code.
+    class Program //is the container for code. All C# code must be inside a class.
+    {
+        static void Main(string[] args) // the entry point of the program, where execution starts.
+        {
+            Console.WriteLine("Hello, World!"); // prints text to the console.
+        }
+    }
+}
